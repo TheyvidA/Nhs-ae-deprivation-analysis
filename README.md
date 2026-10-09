@@ -69,8 +69,6 @@ git clone https://github.com/TheyvidA/Nhs-ae-deprivation-analysis.git
 cd Nhs-ae-deprivation-analysis
 pip install pandas xlrd scipy matplotlib
 ```
-
-Nhs-ae-deprivation-analysis
 1. Download the input files (links below) into one folder. The raw data is not included in this repository because of file size (the ONS postcode file is about 1.4 GB).
 2. Edit the `CONFIG` block at the top of `ae_deprivation_analysis.py` to set `DATA_DIR`, `OUTPUT_DIR` and the file names.
 3. Run:
